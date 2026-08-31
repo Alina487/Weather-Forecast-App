@@ -1,16 +1,18 @@
-# React + Vite
+# Weather Forecast App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive Weather Dashboard built with React and Material-UI that fetches real-time climate data from the OpenWeatherMap API. The background dynamically transforms its interface based on current atmospheric conditions.
 
-Currently, two official plugins are available:
+## Features
+- *Real-time Data:* Fetches current temperature, humidity, wind speed, and weather descriptions.
+- *Dynamic Backgrounds:* UI changing visual states dynamically to match hot, cold, or rainy weather.
+- *Error Handling:* Instantly alerts users if a searched city or region does not exist.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+### Home Page
+![Weather Application](screenShots/Screenshot1.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Weather Search Result
+![Weather Application](screenShots/Screenshot2.png)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Weather Application](screenShots/Screenshot3.png)
